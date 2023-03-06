@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T17:06:29.092Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Sa5tVrVzm4MU06sdgdbL" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-06T17:14:41.952Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="GEbBo3SEwZsvJ6BrYkEy" version="20.6.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1038" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -11,6 +11,16 @@
               <mxPoint x="209" y="128" />
               <mxPoint x="209" y="130" />
               <mxPoint x="360" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AKInlU7RmeM9Gv5LZh1b-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="AKInlU7RmeM9Gv5LZh1b-3" target="AKInlU7RmeM9Gv5LZh1b-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="40" />
+              <mxPoint x="120" y="200" />
+              <mxPoint x="180" y="200" />
+              <mxPoint x="180" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -164,6 +174,18 @@
         </mxCell>
         <mxCell id="AKInlU7RmeM9Gv5LZh1b-43" value="Collaborate" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="110" width="65" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="AKInlU7RmeM9Gv5LZh1b-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.43;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="AKInlU7RmeM9Gv5LZh1b-46" target="AKInlU7RmeM9Gv5LZh1b-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="440" />
+              <mxPoint x="400" y="550" />
+              <mxPoint x="644" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AKInlU7RmeM9Gv5LZh1b-46" value="Messages" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
