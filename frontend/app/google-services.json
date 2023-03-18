@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "520851212407",
+    "project_id": "campuslink-db",
+    "storage_bucket": "campuslink-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520851212407:android:5f117db88282efa3441e72",
+        "android_client_info": {
+          "package_name": "com.example.campuslink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520851212407-l4d04cvtbjomj0vmal3nop1grnf7t8uj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO6B9MHfut7BibxGyVioxqFPySD5OIoxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520851212407-l4d04cvtbjomj0vmal3nop1grnf7t8uj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

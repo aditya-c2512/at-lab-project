@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B2A4A"
+    tools:context=".DashboardActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_layout">
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="670dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="#294175"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myProj">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:text="Username"
+            android:layout_marginTop="13dp"
+            android:textColor="#CEE8E6E6"
+            android:textSize="25dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:text="Project Title"
+            android:textColor="#CEE8E6E6"
+            android:textSize="22dp"
+            android:textStyle="italic"
+            android:layout_marginTop="48dp"/>
+
+        <TextView
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="223dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginRight="12dp"
+            android:inputType="date"
+            android:text="dd/mm/yyyy"
+            android:textColor="#B9E8E6E6"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="75dp"
+            android:background="#e8e6e6"
+            android:padding="15dp"></View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginTop="75dp"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+            android:paddingLeft="23dp"
+            android:textColorHint="#68E8E6E6"
+            android:textStyle="italic"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="130dp"
+            android:background="#e8e6e6"
+            android:padding="15dp">
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="135dp"
+            android:paddingLeft="23dp"
+            android:text="Domains:"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            tools:ignore="TextSizeCheck" />
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="#294175"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myProj">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:text="Username"
+            android:layout_marginTop="13dp"
+            android:textColor="#CEE8E6E6"
+            android:textSize="25dp"
+            android:textStyle="italic" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:text="Project Title"
+            android:textColor="#CEE8E6E6"
+            android:textSize="22dp"
+            android:textStyle="italic"
+            android:layout_marginTop="48dp"/>
+
+        <TextView
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="223dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginRight="12dp"
+            android:inputType="date"
+            android:text="dd/mm/yyyy"
+            android:textColor="#B9E8E6E6"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="75dp"
+            android:background="#e8e6e6"
+            android:padding="15dp"></View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginTop="75dp"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+            android:paddingLeft="23dp"
+            android:textColorHint="#68E8E6E6"
+            android:textStyle="italic"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="130dp"
+            android:background="#e8e6e6"
+            android:padding="15dp">
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="135dp"
+            android:paddingLeft="23dp"
+            android:text="Domains:"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            tools:ignore="TextSizeCheck" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="#294175"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myProj">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:text="Username"
+            android:layout_marginTop="13dp"
+            android:textColor="#CEE8E6E6"
+            android:textSize="25dp"
+            android:textStyle="italic" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:text="Project Title"
+            android:textColor="#CEE8E6E6"
+            android:textSize="22dp"
+            android:textStyle="italic"
+            android:layout_marginTop="48dp"/>
+
+        <TextView
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="223dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginRight="12dp"
+            android:inputType="date"
+            android:text="dd/mm/yyyy"
+            android:textColor="#B9E8E6E6"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="75dp"
+            android:background="#e8e6e6"
+            android:padding="15dp"></View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginTop="75dp"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+            android:paddingLeft="23dp"
+            android:textColorHint="#68E8E6E6"
+            android:textStyle="italic"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="130dp"
+            android:background="#e8e6e6"
+            android:padding="15dp">
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="135dp"
+            android:paddingLeft="23dp"
+            android:text="Domains:"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            tools:ignore="TextSizeCheck" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="623dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="#294175"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myProj">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:text="Username"
+            android:layout_marginTop="13dp"
+            android:textColor="#CEE8E6E6"
+            android:textSize="25dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:text="Project Title"
+            android:textColor="#CEE8E6E6"
+            android:textSize="22dp"
+            android:textStyle="italic"
+            android:layout_marginTop="48dp"/>
+
+        <TextView
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="223dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginRight="12dp"
+            android:inputType="date"
+            android:text="dd/mm/yyyy"
+            android:textColor="#B9E8E6E6"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="75dp"
+            android:background="#e8e6e6"
+            android:padding="15dp"></View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginTop="75dp"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+            android:paddingLeft="23dp"
+            android:textColorHint="#68E8E6E6"
+            android:textStyle="italic"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="130dp"
+            android:background="#e8e6e6"
+            android:padding="15dp">
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="135dp"
+            android:paddingLeft="23dp"
+            android:text="Domains:"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            tools:ignore="TextSizeCheck" />
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="623dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="#294175"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myProj">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:text="Username"
+            android:layout_marginTop="13dp"
+            android:textColor="#CEE8E6E6"
+            android:textSize="25dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:text="Project Title"
+            android:textColor="#CEE8E6E6"
+            android:textSize="22dp"
+            android:textStyle="italic"
+            android:layout_marginTop="48dp"/>
+
+        <TextView
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="223dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginRight="12dp"
+            android:inputType="date"
+            android:text="dd/mm/yyyy"
+            android:textColor="#B9E8E6E6"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="75dp"
+            android:background="#e8e6e6"
+            android:padding="15dp"></View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginTop="75dp"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+            android:paddingLeft="23dp"
+            android:textColorHint="#68E8E6E6"
+            android:textStyle="italic"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="130dp"
+            android:background="#e8e6e6"
+            android:padding="15dp">
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="135dp"
+            android:paddingLeft="23dp"
+            android:text="Domains:"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            tools:ignore="TextSizeCheck" />
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_gravity="bottom"
+        android:background="#294175"
+        app:itemIconSize="38dp"
+        app:itemIconTint="#8DFFFFFF"
+        app:labelVisibilityMode="unlabeled"
+
+        >
+
+        <Button
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/baseline_home_24"
+            android:onClick="goHome"
+
+            />
+        <Button
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:background="@drawable/baseline_group_24"
+            android:onClick="goNetwork"
+            android:layout_marginLeft="75dp"
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fbtn_addpost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="175dp"
+            android:backgroundTint="@color/button_background_color"
+            android:onClick="goAddPost"
+            android:src="@drawable/baseline_add_24"
+            android:tint="#FFFFFF"
+            app:maxImageSize="40dp"
+            app:rippleColor="#FFFFFF" />
+
+        <Button
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="255dp"
+            android:onClick="goProfile"
+            android:background="@drawable/baseline_perm_identity_24"
+            />
+        <Button
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="330dp"
+            android:background="@drawable/baseline_logout_24"
+            />
+
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <!--            changes when bottom app bar added-->
+
+    />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
