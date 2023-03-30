@@ -1,9 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T14:03:19.505Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.2" etag="6mbfM9ccgS2BXlS6lIM6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-30T14:27:06.392Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="lSQoFNcRXYuU_5q1sMFR" version="21.1.2" type="github">
   <diagram name="Page-1" id="6djXpDc_SwvLWku1SalZ">
-    <mxGraphModel>
+    <mxGraphModel dx="2219" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lt649kUyPKjO8OLzreIY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=70;exitDy=80;exitPerimeter=0;" edge="1" parent="1" source="lt649kUyPKjO8OLzreIY-1" target="lt649kUyPKjO8OLzreIY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lt649kUyPKjO8OLzreIY-9" value="Company #1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lt649kUyPKjO8OLzreIY-8">
+          <mxGeometry x="-0.1967" y="3" relative="1" as="geometry">
+            <mxPoint x="-48" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lt649kUyPKjO8OLzreIY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=70;exitDy=80;exitPerimeter=0;" edge="1" parent="1" source="lt649kUyPKjO8OLzreIY-1" target="lt649kUyPKjO8OLzreIY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lt649kUyPKjO8OLzreIY-12" value="Company #n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lt649kUyPKjO8OLzreIY-11">
+          <mxGeometry x="0.1767" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lt649kUyPKjO8OLzreIY-1" value="Company Stock Prices" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lt649kUyPKjO8OLzreIY-2" value="Nifty50 Prices" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lt649kUyPKjO8OLzreIY-3" value="S&amp;amp;P500 Prices" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lt649kUyPKjO8OLzreIY-7" value="DECISION TREE #1" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://files.ai-pool.com/a/aba6fb4dcd4c3d01372085631f47d122.png;" vertex="1" parent="1">
+          <mxGeometry x="-40.000000000000014" y="280" width="240.92" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lt649kUyPKjO8OLzreIY-10" value="DECISION TREE #n" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://files.ai-pool.com/a/aba6fb4dcd4c3d01372085631f47d122.png;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="240.92" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lt649kUyPKjO8OLzreIY-13" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="339.5" as="sourcePoint" />
+            <mxPoint x="270" y="339.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
